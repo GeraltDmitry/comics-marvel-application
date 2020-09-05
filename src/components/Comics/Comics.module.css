@@ -1,0 +1,45 @@
+.comics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.comic {
+    max-width: 200px;
+    max-height: 400px;
+    margin: 10px;
+
+    border: 1px solid red;
+}
+
+.comic-description {
+    text-overflow: ellipsis;
+    max-height: 70px;
+}
+
+.comic-image {
+    max-width: 200px;
+    max-height: 300px;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    
+    cursor: pointer;
+}
+
+.footer-item {
+    max-width: 80 px;
+    max-height: 20 px;
+    border: 1px solid red;
+}

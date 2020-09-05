@@ -1,0 +1,23 @@
+.heroes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hero {
+    max-width: 200px;
+    max-height: 400px;
+    margin: 10px;
+
+    border: 1px solid red;
+}
+
+.hero-description {
+    text-overflow: ellipsis;
+    max-height: 70px;
+}
+
+.hero-image {
+    max-width: 200px;
+    max-height: 300px;
+}
